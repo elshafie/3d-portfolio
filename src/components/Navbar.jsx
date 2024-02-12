@@ -55,7 +55,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
 
       <div className="logo-icon flex-[1]"
       >
-        <NavLink to='/' className='w-28 h-6 items-center justify-center flex font-bold hover:scale-105 transition-all
+        <NavLink to='3d-portfolio/' className='w-28 h-6 items-center justify-center flex font-bold hover:scale-105 transition-all
                 sm:w-36 sm:h-8 sm:ml-[2vw]'>
           <p className="blue-gradient_text text-2xl p-0 drop-shadow-lg">ELSHAFIE</p>
         </NavLink>
@@ -107,7 +107,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/'
+            to='3d-portfolio/'
             aria-label="home"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
@@ -122,7 +122,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/researcher/'
+            to='3d-portfolio/researcher/'
             aria-label="researcher"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
@@ -137,7 +137,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/fullstack/'
+            to='3d-portfolio/fullstack/'
             aria-label="fullstack"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
@@ -150,7 +150,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/video/'
+            to='3d-portfolio/video/'
             aria-label="video"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'
@@ -163,7 +163,7 @@ const Navbar = ({ mode, setMode, viewMenu, setViewMenu }) => {
             variants={childVarients}
             initial='hidden'
             whileInView='visible'
-            to='/contact/'
+            to='3d-portfolio/contact/'
             aria-label="contact"
             className={({ isActive }) => isActive
               ? 'flex items-center justify-center w-full h-full pt-0 sm:pt-0 -translate-y-1 sm:-translate-y-1 text-violet-800'

@@ -36,12 +36,12 @@ const App = () => {
         setViewMenu={setViewMenu} />
 
       <Routes>
-        <Route path='/' element={<Home mode={mode} />} />
-        <Route path='/researcher' element={<Researcher />} />
-        <Route path='/fullstack' element={<FullStack />} />
-        <Route path='/video' element={<Underconstruction />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='3d-portfolio/' element={<Home mode={mode} />} />
+        <Route path='3d-portfolio/researcher' element={<Researcher />} />
+        <Route path='3d-portfolio/fullstack' element={<FullStack />} />
+        <Route path='3d-portfolio/video' element={<Underconstruction />} />
+        <Route path='3d-portfolio/contact' element={<Contact />} />
+        <Route path='3d-portfolio/*' element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -191,7 +191,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/researcher/'>
+              to='3d-portfolio/researcher/'>
               <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -283,7 +283,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/fullstack/'>
+              to='3d-portfolio/fullstack/'>
               <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -363,7 +363,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 w-40 sm:w-60 inline-block left-0
           sm:text-xl">
             <Link className="btn !p-2 hover:text-fuchsia-700 flex items-center justify-between"
-              to='/video/'>
+              to='3d-portfolio/video/'>
               <span className="text-xs sm:text-base">Feel free to  dive in</span>
               <span className="animate-right">
                 <BiRightArrowCircle className="inline-block  text-2xl" />
@@ -483,7 +483,7 @@ const HomeInfo = ({ currentStage }) => {
             className="font-bold mt-4 text-base w-full left-0 flex items-center justify-center
           sm:text-xl">
             <Link className="btn !p-3 hover:text-fuchsia-700 flex items-center justify-between w-44 sm:w-96"
-              to='/contact/'>
+              to='3d-portfolio/contact/'>
               <span className="">Send me a message</span>
               <BiRightArrowCircle className="animate-right  inline-block  text-2xl" />
             </Link>
