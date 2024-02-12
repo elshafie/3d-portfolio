@@ -4,7 +4,7 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/3d-portfolio",
+  base: "/3d-portfolio/",
   plugins: [react()],
   assetsInclude: ["**/*.glb"],
   optimizeDeps: {
